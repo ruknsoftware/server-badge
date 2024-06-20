@@ -1,0 +1,58 @@
+
+.stage-server-badge {
+    background: linear-gradient(90deg, #ff9058, darkorange);
+    color: white;
+    padding-top: 21px;
+    position: relative;
+    top: -6px;
+    left: -61px;
+    width: 8%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    z-index: 1026;
+    box-shadow: rgba(108, 108, 108, 0.8) 0px 2px 4px;
+    transform: rotate(-45deg);
+    border-bottom: 2px solid darkorange;
+}
+
+@media (max-width: 900px) {
+    .stage-server-badge {
+        top: -5px;
+        left: -57px;
+        width: 140px;
+        font-size: 12px;
+        padding-top: 17px;
+    }
+}
+@media (max-width: 768px) {
+    .stage-server-badge {
+        top: -5px;
+        left: -57px;
+        width: 140px;
+        font-size: 12px;
+        padding-top:17px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .stage-server-badge {
+        top: 4px;
+        left: -36px;
+        width: 118px;
+        font-size: 12px;
+        padding-top: 13px;
+        padding-bottom: 6px;
+    }
+}
+@media (max-width: 480px) {
+    .stage-server-badge {
+        top: 4px;
+        left: -36px;
+        width: 118px;
+        font-size: 12px;
+        padding-top: 13px;
+        padding-bottom: 6px;
+    }
+}
