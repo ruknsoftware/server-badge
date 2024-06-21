@@ -1,5 +1,5 @@
 frappe.call({
-    method: "server.utils.get_server_type",
+    method: "stage_badge.utils.get_server_type",
     callback: function(response) {
         const { server_type, badge_color } = response.message;
         
