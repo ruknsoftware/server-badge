@@ -1,7 +1,7 @@
-app_name = "stage_badge"
-app_title = "Stage Badge"
+app_name = "server_badge"
+app_title = "Server Badge"
 app_publisher = "Husam Hammad"
-app_description = "App to distinguish between a stage server and a production server"
+app_description = "App to distinguish a stage server"
 app_email = "husamhammad542@gmail.com"
 app_license = "MIT"
 
@@ -9,15 +9,15 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_css = "/assets/stage_badge/css/server.css"
-app_include_js = "/assets/stage_badge/js/server.js"
+app_include_css = "/assets/server_badge/css/server.css"
+app_include_js = "/assets/server_badge/js/server.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/stage_badge/css/stage_badge.css"
-# web_include_js = "/assets/stage_badge/js/stage_badge.js"
+# web_include_css = "/assets/server_badge/css/server_badge.css"
+# web_include_js = "/assets/server_badge/js/server_badge.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "stage_badge/public/scss/website"
+# website_theme_scss = "server_badge/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -54,43 +54,43 @@ app_include_js = "/assets/stage_badge/js/server.js"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "stage_badge.utils.jinja_methods",
-# 	"filters": "stage_badge.utils.jinja_filters"
+# 	"methods": "server_badge.utils.jinja_methods",
+# 	"filters": "server_badge.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "stage_badge.install.before_install"
-# after_install = "stage_badge.install.after_install"
+# before_install = "server_badge.install.before_install"
+# after_install = "server_badge.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "stage_badge.uninstall.before_uninstall"
-# after_uninstall = "stage_badge.uninstall.after_uninstall"
+# before_uninstall = "server_badge.uninstall.before_uninstall"
+# after_uninstall = "server_badge.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "stage_badge.utils.before_app_install"
-# after_app_install = "stage_badge.utils.after_app_install"
+# before_app_install = "server_badge.utils.before_app_install"
+# after_app_install = "server_badge.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "stage_badge.utils.before_app_uninstall"
-# after_app_uninstall = "stage_badge.utils.after_app_uninstall"
+# before_app_uninstall = "server_badge.utils.before_app_uninstall"
+# after_app_uninstall = "server_badge.utils.after_app_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "stage_badge.notifications.get_notification_config"
+# notification_config = "server_badge.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -129,39 +129,39 @@ app_include_js = "/assets/stage_badge/js/server.js"
 
 # scheduler_events = {
 # 	"all": [
-# 		"stage_badge.tasks.all"
+# 		"server_badge.tasks.all"
 # 	],
 # 	"daily": [
-# 		"stage_badge.tasks.daily"
+# 		"server_badge.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"stage_badge.tasks.hourly"
+# 		"server_badge.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"stage_badge.tasks.weekly"
+# 		"server_badge.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"stage_badge.tasks.monthly"
+# 		"server_badge.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "stage_badge.install.before_tests"
+# before_tests = "server_badge.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "stage_badge.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "server_badge.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "stage_badge.task.get_dashboard_data"
+# 	"Task": "server_badge.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -175,13 +175,13 @@ app_include_js = "/assets/stage_badge/js/server.js"
 
 # Request Events
 # ----------------
-# before_request = ["stage_badge.utils.before_request"]
-# after_request = ["stage_badge.utils.after_request"]
+# before_request = ["server_badge.utils.before_request"]
+# after_request = ["server_badge.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["stage_badge.utils.before_job"]
-# after_job = ["stage_badge.utils.after_job"]
+# before_job = ["server_badge.utils.before_job"]
+# after_job = ["server_badge.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -211,5 +211,5 @@ app_include_js = "/assets/stage_badge/js/server.js"
 # --------------------------------
 
 # auth_hooks = [
-# 	"stage_badge.auth.validate"
+# 	"server_badge.auth.validate"
 # ]

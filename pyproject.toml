@@ -1,9 +1,9 @@
 [project]
-name = "stage_badge"
+name = "server_badge"
 authors = [
     { name = "Husam Hammad", email = "husamhammad542@gmail.com"}
 ]
-description = "App to distinguish between a stage server and a production server"
+description = "App to distinguish a stage server "
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
