@@ -3,8 +3,8 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "Stage Badge",
+			"module_name": "Server Badge",
 			"type": "module",
-			"label": _("Stage Badge")
+			"label": _("Server Badge")
 		}
 	]

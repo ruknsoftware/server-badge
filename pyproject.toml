@@ -1,5 +1,5 @@
 [project]
-name = "stage_badge"
+name = "server_badge"
 authors = [
     { name = "Husam Hammad", email = "husamhammad542@gmail.com"}
 ]
