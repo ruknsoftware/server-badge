@@ -8,7 +8,7 @@ frappe.call({
             badge.className = 'stage-server-badge';
             badge.innerText = `${server_type}`;
             
-            document.body.prepend(badge);
+            document.querySelector("header").prepend(badge);
         }
     }
 })
