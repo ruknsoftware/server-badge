@@ -35,7 +35,16 @@
         padding-top:17px;
     }
 }
-
+@media (max-width: 1780px) {
+    .stage-server-badge {
+        top: 4px;
+        left: -36px;
+        width: 118px;
+        font-size: 12px;
+        padding-top: 13px;
+        padding-bottom: 6px;
+    }
+}
 @media (max-width: 1280px) {
     .stage-server-badge {
         top: 4px;
