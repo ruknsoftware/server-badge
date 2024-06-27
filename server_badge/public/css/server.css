@@ -17,48 +17,58 @@
     border-bottom: 2px solid darkorange;
 }
 
-@media (max-width: 900px) {
-    .stage-server-badge {
-        top: -5px;
-        left: -57px;
-        width: 140px;
-        font-size: 12px;
-        padding-top: 17px;
-    }
-}
-@media (max-width: 768px) {
-    .stage-server-badge {
-        top: -5px;
-        left: -57px;
-        width: 140px;
-        font-size: 12px;
-        padding-top:17px;
-    }
-}
 @media (max-width: 1780px) {
     .stage-server-badge {
-        top: 4px;
-        left: -36px;
+        top: -15px;
+        left: -45px;
         width: 118px;
         font-size: 12px;
-        padding-top: 13px;
+        padding-top: 21px;
         padding-bottom: 6px;
     }
 }
 @media (max-width: 1280px) {
     .stage-server-badge {
-        top: -10px;
-        left: -36px;
+        top: -7px;
+        left: -33px;
         width: 118px;
         font-size: 12px;
         padding-top: 13px;
         padding-bottom: 6px;
     }
 }
+@media (max-width: 990px) {
+    .stage-server-badge {
+        top: -6px;
+        left: -36px;
+        width: 140px;
+        font-size: 12px;
+        padding-top: 17px;
+    }
+}
+@media (max-width: 767px) {
+    .stage-server-badge {
+        top: 0px;
+        left: -39px;
+        width: 140px;
+        font-size: 12px;
+        padding-top:17px;
+    }
+}
+
+@media (max-width: 670px) {
+    .stage-server-badge {
+        top: -8px;
+        left: -34px;
+        width: 140px;
+        font-size: 12px;
+        padding-top:17px;
+    }
+}
 @media (max-width: 480px) {
     .stage-server-badge {
-        top: -9px;
-        left: -31px;
+        top: -11px;
+        left: -30px;
         width: 135px;
         font-size: 12px;
         padding-top: 13px;
