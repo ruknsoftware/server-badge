@@ -1,0 +1,8 @@
+.DS_Store
+*.pyc
+*.egg-info
+*.swp
+tags
+server_badge/docs/current
+node_modules/
+server_badge/public/dist
