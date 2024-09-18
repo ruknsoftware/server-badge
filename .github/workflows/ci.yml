@@ -8,7 +8,7 @@ on:
   pull_request:
 
 concurrency:
-  group: develop-aqarm-${{ github.event.number }}
+  group: develop-server_badge-${{ github.event.number }}
   cancel-in-progress: true
 
 jobs:

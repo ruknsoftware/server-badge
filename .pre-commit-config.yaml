@@ -7,9 +7,9 @@ repos:
     rev: v4.0.1
     hooks:
       - id: trailing-whitespace
-        files: "aqarm.*"
+        files: "server_badge.*"
       - id: end-of-file-fixer
-        files: "aqarm.*"
+        files: "server_badge.*"
         exclude: ".*json$|.*txt$"
       - id: check-yaml
 
